@@ -12,7 +12,7 @@
 }
 
 .notification-dropdown-trigger:hover .notification-icon {
-  color: #ff4500;
+  color: #663399;
 }
 
 .notification-badge {
@@ -21,7 +21,7 @@
   right: 2px;
   min-width: 18px;
   height: 18px;
-  background: linear-gradient(135deg, #ff4500, #ff8c00);
+  background: linear-gradient(135deg, #663399, #9966cc);
   color: #fff;
   border-radius: 50%;
   font-size: 11px;

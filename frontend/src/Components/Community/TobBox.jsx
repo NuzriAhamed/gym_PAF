@@ -29,7 +29,7 @@ const TopBox = () => {
   
   return (
     <div className="top-box">
-      <h2 className="top-box-header">Workout Stories</h2>
+      <h2 className="top-box-header">Sewing Stories</h2>
       <div className="stories-container">
         <div
           onClick={() => {

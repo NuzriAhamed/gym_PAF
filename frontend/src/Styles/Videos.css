@@ -23,7 +23,7 @@
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
-    border-left: 3px solid #ff4500;
+    border-left: 3px solid #663399;
   }
   
   .video-item:hover {
@@ -104,7 +104,7 @@
   }
   
   .video-action:hover {
-    color: #ff4500;
+    color: #663399;
   }
   
   .video-icon {
@@ -112,7 +112,7 @@
   }
   
   .video-icon.liked {
-    color: #ff4500;
+    color: #9966cc;
   }
   
   .loading-container {

@@ -4,11 +4,16 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.268);
   padding: 15px 0;
   z-index: 1000;
   transition: all 0.3s ease;
-  border-bottom: 2px solid #ff4500;
+  border-bottom: 2px solid #663399;
+}
+
+.workout-nav-link{
+
+  margin-left: 2px;
 }
 
 .navbar .nav__logo {
@@ -17,7 +22,7 @@
 
 .navbar__scrolled {
   background-color: #222;
-  box-shadow: 0 2px 15px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 5px 45px rgba(249, 249, 249, 0.651);
   padding: 10px 0;
 }
 
@@ -26,11 +31,11 @@
 }
 
 .navbar__scrolled .nav__link:hover {
-  color: #ff4500;
+  color: #663399;
 }
 
 .navbar__scrolled .nav__link--cta {
-  background: linear-gradient(135deg, #ff4500, #ff8c00);
+  background: linear-gradient(135deg, #663399, #9966cc);
   color: #fff;
 }
 
@@ -57,22 +62,28 @@
 }
 
 .logo__text {
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #ff4500;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-weight:900;
+  font-size: larger;
+  font-size: 2rem;
+  color: #663399;
+  letter-spacing: 3px;
   transition: all 0.3s ease;
   font-family: 'Oswald', sans-serif;
+  margin-left: 10px;
+  text-shadow: 0 0 10px white;
 }
 
 .navbar__scrolled .logo__text {
-  color: #ff4500;
+  color: #663399;
 }
 
 .nav__logo img {
-  height: 40px;
+  height: 50px;
+  margin-right: 5px;
   transition: all 0.3s ease;
+  border-left: 4px solid #663399;
+  border-bottom: 2px solid #663399;
+  border-radius: 50%;
 }
 
 .navbar__scrolled .nav__logo img {
@@ -116,12 +127,12 @@
 .nav__search input:focus {
   outline: none;
   background-color: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 0 2px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 0 0 2px rgba(246, 246, 246, 0.964);
 }
 
 .navbar__scrolled .nav__search input:focus {
   background-color: #444;
-  box-shadow: 0 0 0 2px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.974);
 }
 
 .search__button {
@@ -131,12 +142,12 @@
   transform: translateY(-50%);
   background: none;
   border: none;
-  color: #ff4500;
+  color: #663399;
   cursor: pointer;
 }
 
 .navbar__scrolled .search__button {
-  color: #ff4500;
+  color: #663399;
 }
 
 .nav__menu__btn {
@@ -158,7 +169,7 @@
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #ff4500;
+  background: #ffffff;
   border-radius: 3px;
   opacity: 1;
   left: 0;
@@ -167,7 +178,7 @@
 }
 
 .navbar__scrolled .menu__icon span {
-  background: #ff4500;
+  background: #663399;
 }
 
 .menu__icon span:nth-child(1) {
@@ -226,12 +237,12 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff4500;
+  background-color: #663399;
   transition: width 0.3s ease;
 }
 
 .navbar__scrolled .nav__link::after {
-  background-color: #ff4500;
+  background-color: #663399;
 }
 
 .nav__link:hover::after {
@@ -239,11 +250,11 @@
 }
 
 .nav__link--cta {
-  background: linear-gradient(135deg, #ff4500, #ff8c00);
+  background: linear-gradient(135deg, #663399, #9966cc);
   color: #fff;
   padding: 10px 20px;
   border-radius: 4px;
-  box-shadow: 0 4px 15px rgba(255, 69, 0, 0.3);
+  box-shadow: 0 8px 25px rgba(162, 95, 229, 0.4);
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -252,7 +263,7 @@
 
 .nav__link--cta:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(255, 69, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(162, 95, 229, 0.4);
 }
 
 .nav__link--cta:hover::after {
@@ -264,7 +275,7 @@
   right: 20px;
   bottom: -80px;
   font-style: italic;
-  color: #ff4500;
+  color: #663399;
   font-size: 0.9rem;
   max-width: 300px;
   text-align: right;
@@ -311,6 +322,7 @@
     flex-direction: column;
     gap: 0;
     max-height: 0;
+    margin-left: 2px;
     overflow: hidden;
     transition: max-height 0.5s ease;
     background-color: #111;
@@ -325,11 +337,11 @@
     width: 100%;
     text-align: center;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+    border-bottom: 1px solid rgb(255, 255, 255);
   }
   
   .navbar__scrolled .nav__item {
-    border-bottom: 1px solid rgba(255, 69, 0, 0.2);
+    border-bottom: 1px solid rgb(252, 252, 252);
   }
   
   .nav__item:last-child {

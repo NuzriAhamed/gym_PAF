@@ -1,6 +1,7 @@
 import React from "react";
 import { useSnapshot } from "valtio";
 import state from "../../Utils/Store";
+import { Link } from 'react-router-dom';
 
 const LeftMenu = () => {
   const snap = useSnapshot(state);
@@ -12,7 +13,7 @@ const LeftMenu = () => {
   // Main navigation items
   const mainNavItems = [
     "Posts",
-    "Skill Plans",
+    "Sewing Plans",
     "Learning Tracking",
     "Friends",
     "Notifications",
@@ -27,8 +28,8 @@ const LeftMenu = () => {
   return (
     <div className="left-menu">
       <div className="left-menu-header">
-      <img src="../assets/PAF-Logo.JPG" alt="" />
-        <h3 className="left-menu-title">Energies</h3>
+      <img src="../assets/logo.png" alt="" />
+        <h3 className="left-menu-title">Sewist</h3>
       </div>
       
       {/* Main navigation */}
@@ -68,6 +69,11 @@ const LeftMenu = () => {
             </li>
           ))}
         </ul>
+        <Link to="/">
+        <button className="btn btn__primary at_bottom">
+                HOME
+        </button>
+        </Link>
       </div>
     </div>
   );

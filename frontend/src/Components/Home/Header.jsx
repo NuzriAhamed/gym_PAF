@@ -17,7 +17,7 @@ const Header = () => {
     };
     
     // Check on component mount
-    checkLoginStatus();
+    checkLoginStatus(); 
     
     // Add event listener to detect localStorage changes
     window.addEventListener('storage', checkLoginStatus);
@@ -51,16 +51,16 @@ const Header = () => {
       <div className="section__container">
         <div className="header__container">
           <div className="header__content">
-            <h1>TRANSFORM YOUR BODY</h1>
-            <h2>TRAIN. PUSH. CONQUER.</h2>
+            <h1>UNLEASH YOUR CREATIVITY</h1>
+            <h2>SEW. SHARE. INSPIRE.</h2>
             <p>
-              Join our community of fitness enthusiasts and expert trainers. 
-              Access personalized workout plans, track your progress, and 
-              unleash your full potential.
+            Join a vibrant community of sewing enthusiasts and creators. 
+            Discover new projects, share your handmade masterpieces, 
+            learn expert techniques, and connect with fellow sewists from around the world.
             </p>
             <div className="header__btn">
               <button className="btn btn__primary" onClick={authButtonClicked}>
-                {isLoggedIn ? "My Workouts" : "START YOUR JOURNEY"}
+                {isLoggedIn ? "CALL | TO ACTION" : "START YOUR JOURNEY"}
               </button>
             </div>
           </div>
@@ -68,7 +68,7 @@ const Header = () => {
       </div>
       
       <div className="motivation-banner">
-        <p>"The body achieves what the mind believes."<strong>- Unknown</strong></p>
+        <p>"Sewing is an art that brings fabric and thread to life." <strong>- Unknown</strong></p>
       </div>
       
       <AuthModal

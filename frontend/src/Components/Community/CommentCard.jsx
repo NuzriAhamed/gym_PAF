@@ -129,7 +129,7 @@ const CommentCard = ({ comment, currentUser, onUpdate, onDelete }) => {
               type="primary"
               onClick={handleSave}
               loading={isLoading}
-              style={{ background: "#ff4500", borderColor: "#ff4500" }}
+              style={{ background: "#663399", borderColor: "#663399" }}
             >
               Save
             </Button>

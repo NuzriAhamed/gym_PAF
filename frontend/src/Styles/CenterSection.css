@@ -153,7 +153,7 @@ font-weight: 500;
 .template-icon {
 margin-right: 10px;
 font-size: 18px;
-color: #ff8c00;
+color: #663399;
 }
 
 .card-content {
@@ -163,7 +163,7 @@ height: 100%;
 }
 
 .template-tag {
-color: #ff8c00;
+color: #663399;
 font-size: 12px;
 font-weight: 500;
 margin-bottom: 8px;
@@ -247,7 +247,7 @@ opacity: 1;
 .accent-bar {
 width: 4px;
 height: 100%;
-background: linear-gradient(to bottom, #ff8c00, #072703);
+background: linear-gradient(to bottom, #663399, #072703);
 }
 
 .learning-content {
@@ -269,7 +269,7 @@ margin-right: 16px;
 }
 
 .learning-icon i {
-color: #ff8c00;
+color: #663399;
 font-size: 18px;
 }
 
@@ -320,7 +320,7 @@ margin-bottom: 20px;
 }
 
 .learning-details .ant-descriptions-title {
-color: #ff8c00;
+color: #663399;
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 16px;
@@ -338,7 +338,7 @@ line-height: 1.6;
 }
 
 .learning-details .ant-descriptions-item-content a {
-color: #ff8c00;
+color: #663399;
 transition: color 0.3s ease;
 }
 
@@ -369,7 +369,7 @@ padding: 16px 24px;
 }
 
 .ant-modal-title {
-color: #ff8c00;
+color: #663399;
 font-weight: 600;
 }
 
@@ -390,7 +390,7 @@ font-weight: 500;
 .ant-input:focus, 
 .ant-input-focused,
 .ant-select-focused .ant-select-selector {
-border-color: #ff8c00;
+border-color: #663399;
 box-shadow: 0 0 0 2px rgba(6, 88, 13, 0.2);
 }
 
@@ -424,7 +424,7 @@ border-radius: 6px;
 }
 
 .learning-modal .submit-button {
-background: linear-gradient(to right, #ff8c00, #072703);
+background: linear-gradient(to right, #663399, #9966cc);
 border: none;
 width: 100%;
 height: 40px;
@@ -445,18 +445,18 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 .learning-modal .ant-input-focused,
 .learning-modal .ant-picker-focused,
 .learning-modal .ant-select-focused .ant-select-selector {
-border-color: #ff8c00;
+border-color: #663399;
 box-shadow: 0 0 0 2px rgba(6, 88, 13, 0.2);
 }
 
 /* DatePicker styling */
 .learning-modal .ant-picker:hover,
 .learning-modal .ant-picker-focused {
-border-color: #ff8c00;
+border-color: #663399;
 }
 
 .learning-modal .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
-background: #ff8c00;
+background: #663399;
 }
 
 /* TextArea styling */
@@ -467,7 +467,7 @@ border-radius: 6px;
 /* Select dropdown styling */
 .ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
 background-color: rgba(6, 88, 13, 0.1);
-color: #ff8c00;
+color: #663399;
 }
 
 .ant-select-dropdown .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
@@ -481,7 +481,7 @@ border-bottom: 1px solid #eee;
 }
 
 .learning-modal .ant-modal-title {
-color: #ff8c00;
+color: #663399;
 font-weight: 600;
 }
 

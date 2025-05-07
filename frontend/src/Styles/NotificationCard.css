@@ -6,7 +6,7 @@
 }
 
 .notifications-title {
-  color: #ff4500;
+  color: #663399;
   margin-bottom: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -22,7 +22,7 @@
   height: 3px;
   bottom: -10px;
   left: 0;
-  background: linear-gradient(135deg, #ff4500, #ff8c00);
+  background: linear-gradient(135deg, #663399, #9966cc);
 }
 
 .notification-item {
@@ -30,7 +30,7 @@
   margin-bottom: 15px;
   padding: 15px 20px;
   border-radius: 8px;
-  border-left: 4px solid #ff4500;
+  border-left: 4px solid #663399;
   transition: all 0.3s ease;
 }
 

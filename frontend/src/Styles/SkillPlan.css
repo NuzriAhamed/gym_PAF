@@ -1,28 +1,28 @@
 /* Dark Red & Orange Skill Plan Card Styles */
 
 .skill-plan-card {
-  background: #1a0a0ab9;
+  background: #432c5a3d;
   border-radius: 12px;
-  box-shadow: 0 4px 14px rgba(255, 69, 0, 0.2);
+  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   overflow: hidden;
   padding: 20px;
-  border-left: 5px solid #ff5722;
+  border-left: 5px solid #9966cc;
   margin-bottom: 12px;
 }
 
 .skill-plan-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 22px rgba(255, 87, 34, 0.35);
+  box-shadow: 0 8px 22px rgba(252, 252, 252, 0.35);
 }
 
 .skill-plan-active {
-  border-left: 5px solid #ff5622b9;
+  border-left: 5px solid #663399;
 }
 
 .skill-plan-completed {
-  background: #2e0d0d;
-  border-left: 5px solid #c62828;
+  background: #6633994d;
+  border-left: 5px solid #9966cc;
 }
 
 .skill-plan-completed .skill-plan-title {
@@ -91,10 +91,10 @@
 }
 
 .skill-plan-tag {
-  background-color: #330d0d;
+  background-color: #eeeeee;
   border-radius: 16px;
   padding: 4px 10px;
-  color: #ff7043;
+  color: #663399;
   font-size: 13px;
   font-weight: 500;
 }
@@ -103,26 +103,26 @@
   display: flex;
   align-items: center;
   gap: 6px;
-  color: #f5a399;
+  color: #ffffff;
   font-size: 13px;
 }
 
 .skill-plan-resources {
   margin-top: 14px;
   padding: 12px 14px;
-  background: #261010;
-  border-left: 4px solid #ff5722;
+  background: rgba(90, 23, 157, 0.2);
+  border-left: 4px solid #9966cc;
   border-radius: 8px;
 }
 
 .skill-plan-resources-label {
   font-weight: 600;
   margin-bottom: 6px;
-  color: #ffd1c1;
+  color: #ffffff;
 }
 
 .skill-plan-resources-value {
-  color: #ffccbc;
+  color: #fbfbfb;
   font-size: 14px;
   line-height: 1.5;
 }
@@ -134,7 +134,7 @@
 }
 
 .skill-plan-completed-tag {
-  color: #ef9a9a;
+  color: #9966cc;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -142,7 +142,7 @@
 }
 
 .skill-plan-pending-tag {
-  color: #ffab91;
+  color: #9966cc;
   font-weight: 600;
   display: flex;
   align-items: center;

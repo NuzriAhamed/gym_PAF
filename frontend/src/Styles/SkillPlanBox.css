@@ -7,13 +7,13 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: all 0.3s ease;
-  border: 1px solid rgba(255, 69, 0, 0.2);
+  border: 1px solid rgba(244, 244, 244, 0.2);
 }
 
 .skill-plan-box:hover {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-  border-color: rgba(255, 69, 0, 0.4);
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .post_top {
@@ -27,7 +27,7 @@
   height: 45px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #ff4500;
+  border: 2px solid #663399;
 }
 
 .skill-input {

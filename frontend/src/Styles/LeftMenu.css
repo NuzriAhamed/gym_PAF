@@ -6,7 +6,7 @@
   position: fixed;
   left: 0;
   top: 0;
-  border-right: 2px solid #ff4500;
+  border-right: 2px solid #663399;
   overflow-y: auto;
   z-index: 900;
   transition: all 0.3s ease;
@@ -16,7 +16,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid rgba(255, 69, 0, 0.3);
+  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 .left-menu-header img {
@@ -27,7 +27,7 @@
 }
 
 .left-menu-title {
-  color: #ff4500;
+  color: #663399;
   font-weight: 700;
   font-size: 1.3rem;
   margin: 0;
@@ -40,6 +40,18 @@
   list-style: none;
   padding: 0;
   margin: 20px 0;
+}
+
+.at_bottom{
+  margin: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.home_btn_color{
+  color: white;
+  text-decoration: none;
 }
 
 .left-menu-item {
@@ -61,13 +73,13 @@
 }
 
 .left-menu-item:hover .left-menu-link {
-  color: #ff4500;
-  background-color: rgba(255, 69, 0, 0.1);
+  color: #663399;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .left-menu-item.active .left-menu-link {
-  color: #ff4500;
-  background-color: rgba(255, 69, 0, 0.2);
+  color: #663399;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .left-menu-active-indicator {
@@ -76,7 +88,7 @@
   top: 0;
   width: 4px;
   height: 100%;
-  background: linear-gradient(135deg, #ff4500, #ff8c00);
+  background: linear-gradient(135deg, #663399, #9966cc);
 }
 
 @media (max-width: 768px) {

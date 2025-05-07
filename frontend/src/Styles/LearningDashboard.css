@@ -22,15 +22,15 @@
   }
   
   .learning-tabs .ant-tabs-tab-active {
-    color: #ff4500 !important;
+    color: #663399 !important;
   }
   
   .learning-tabs .ant-tabs-ink-bar {
-    background-color: #ff4500;
+    background-color: #663399;
   }
   
   .learning-tabs .ant-tabs-tab-btn:hover {
-    color: #ff6a33 !important;
+    color: #663399 !important;
   }
   
   .stats-section .ant-card {
@@ -61,7 +61,7 @@
   }
   
   .learning-card:hover {
-    border-color: #ff4500;
+    border-color: #663399;
   }
   
   .learning-card-title {
@@ -79,7 +79,7 @@
   
   .template-tag {
     font-weight: 600;
-    color: #ff6a33;
+    color: #663399;
     margin-bottom: 4px;
   }
   
@@ -101,7 +101,7 @@
   }
   
   .card-footer .ant-btn-link {
-    color: #ff4500;
+    color: #663399;
     padding: 0;
   }
   
@@ -120,13 +120,13 @@
   }
   
   .ant-btn-primary {
-    background-color: #ff4500;
-    border-color: #ff4500;
+    background-color: #663399;
+    border-color: #663399;
   }
   
   .ant-btn-primary:hover {
-    background-color: #ff6a33;
-    border-color: #ff6a33;
+    background-color: #663399;
+    border-color: #663399;
   }
   
   .loading-container {
