@@ -59,7 +59,8 @@ const Navbar = () => {
         </div>
         
         <ul className={`nav__links ${menuOpen ? "open" : ""}`}>
-          <li className="nav__item">
+          
+          {/* <li className="nav__item">
             <Link to="/workouts" className="nav__link workout-nav-link">Projects</Link>
           </li>
           <li className="nav__item">
@@ -67,7 +68,7 @@ const Navbar = () => {
           </li>
           <li className="nav__item">
             <Link to="/trainers" className="nav__link">Experts</Link>
-          </li>
+          </li> */}
           <li className="nav__item">
             <Link to="/community" className="nav__link">Community</Link>
           </li>
